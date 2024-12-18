@@ -9690,6 +9690,25 @@ textarea.form-control {
   }
 
 
+  .owl-carousel.home-slider .slider-item .slider-text h1 {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 500;
+}
+
+
+@media (max-width: 768px) {
+  .owl-carousel.home-slider .slider-item .slider-text .one-forth {
+      bottom: auto;
+      z-index: 1;
+      padding: 1em;
+  }
+  .owl-carousel.home-slider .slider-item .slider-text .one-third {
+      width: 100%;
+      z-index: 0;
+      height: 500px !important;
+  }
+}
 
 
 
